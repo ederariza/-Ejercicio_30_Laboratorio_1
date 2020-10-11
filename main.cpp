@@ -31,7 +31,7 @@ int main(){
         else
             cout << "B = A" << endl;
 
-        intentos += 1;
+
 
     }
 
