@@ -8,13 +8,15 @@ convertirlo al rango (0,100).
 */
 
 #include <iostream>
-#include <cstdlib>
+#include <stdlib.h>
+#include <time.h>
 
 using namespace std;
 
 int main(){
 
-    int numero_A = rand();
+    srand(time(NULL));
+    int numero_A = rand() % 100;
     int numero_B = 0;
     int intentos = 0;
     while (numero_B != numero_A){
