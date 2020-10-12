@@ -19,6 +19,7 @@ int main(){
     int numero_A = rand() % 100;
     int numero_B = 0;
     int intentos = 0;
+
     while (numero_B != numero_A){
 
         cout << "Intente adivinar un numero: ";
